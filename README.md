@@ -38,6 +38,7 @@ The combined measurement mode encompasses both of these modes by allowing latenc
 #### Discrete
 This will flash the HMD screen a colour when a sudden movement is detected. 
 The "discrete_experiment.json" settings file should be used for this mode. 
+The mode uses an outlier detection method based on how many median absolute deviations the current sample is away from a window of previous samples, and there are settings in the settings file to control both the length of this window and how many MADs away the sample should be to be classed as an outlier and hence as movement onset.
 
 After pressing to start the testing, the user needs to apply sudden movements to the controller and the HMD screen will flash when a sudden movement is detected.
 To move to a new repetition of the procedure, the trigger button should be pressed. 
