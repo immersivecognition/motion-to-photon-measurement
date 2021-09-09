@@ -1,0 +1,8 @@
+{
+    "default_color": "#000000FE",
+    "align_color": "#00FFFFFE",
+    "threshold_color": "#FF00FFFE",
+    "pre_initiate_color": "#00FFFFFE",
+    "initiate_color": "#FF0000FE",
+    "n_boundary_samples": 50
+}

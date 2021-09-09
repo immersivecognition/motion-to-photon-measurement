@@ -1,0 +1,10 @@
+{
+    "continuous": false,
+    "default_color": "#000000FE",
+    "align_color": "#00FFFFFE",
+    "threshold_color": "#FF0000FE",
+    "pre_initiate_color": "#00FFFFFE",
+    "initiate_color": "#FF0000FE",
+    "window_length": 38,
+    "mad_modifier": 12.5
+}
